@@ -1,4 +1,4 @@
-/* apply a natural box layout model to all elements, but allowing components to change */
+/* Keep this top part as a standard. */
 html {
     box-sizing: border-box;
 }
@@ -6,6 +6,8 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+/*Make your custom css changes below*/
 
 h1 {
     color: blue;
